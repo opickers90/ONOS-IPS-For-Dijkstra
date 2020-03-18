@@ -1,0 +1,167 @@
+{
+    "links" : {
+    "of:000000000000000b/2-of:0000000000000002/3": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000002/3-of:000000000000000b/2": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:000000000000000a/4-of:000000000000000b/4": {
+      "basic": {
+        "bandwidth": 2.5,
+        "type": "DIRECT"
+      }
+    },
+    "of:000000000000000b/4-of:000000000000000a/4": {
+      "basic": {
+        "bandwidth": 2.5,
+        "type": "DIRECT"
+      }
+    },
+    "of:000000000000000a/3-of:0000000000000009/4": {
+      "basic": {
+        "bandwidth": 2.5,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000009/4-of:000000000000000a/3": {
+      "basic": {
+        "bandwidth": 2.5,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000009/2-of:0000000000000006/3": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000006/3-of:0000000000000009/2": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000008/4-of:000000000000000b/3": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:000000000000000b/3-of:0000000000000008/4": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000008/3-of:0000000000000009/3": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000009/3-of:0000000000000008/3": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000007/4-of:0000000000000008/2": {
+      "basic": {
+        "bandwidth": 2.5,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000008/2-of:0000000000000007/4": {
+      "basic": {
+        "bandwidth": 2.5,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000007/2-of:0000000000000004/3": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000004/3-of:0000000000000007/2": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000005/4-of:0000000000000007/3": {
+      "basic": {
+        "bandwidth": 2.5,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000007/3-of:0000000000000005/4": {
+      "basic": {
+        "bandwidth": 2.5,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000005/3-of:0000000000000006/2": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000006/2-of:0000000000000005/3": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000003/3-of:000000000000000a/2": {
+      "basic": {
+        "bandwidth": 2.5,
+        "type": "DIRECT"
+      }
+    },
+    "of:000000000000000a/2-of:0000000000000003/3": {
+      "basic": {
+        "bandwidth": 2.5,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000003/2-of:0000000000000001/3": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000001/3-of:0000000000000003/2": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000002/2-of:0000000000000001/2": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    },
+    "of:0000000000000001/2-of:0000000000000002/2": {
+      "basic": {
+        "bandwidth": 10,
+        "type": "DIRECT"
+      }
+    }
+  },
+    "apps" : {
+        "org.onosproject.core" : {
+            "core" : {
+                "linkDiscoveryMode" : "STRICT"
+            }   
+        }
+    }
+}
